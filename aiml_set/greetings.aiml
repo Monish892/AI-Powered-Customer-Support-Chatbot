@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <random>
+                <li>Hello there!</li>
+                <li>Hi, nice to talk to you.</li>
+                <li>Greetings!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HEY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+            I'm a bot, so I'm always running at peak performance! Thanks for asking. How can I help you?
+        </template>
+    </category>
+    
+    <category>
+        <pattern>GOODBYE</pattern>
+        <template>
+            <random>
+                <li>Goodbye! Have a great day.</li>
+                <li>Talk to you later.</li>
+                <li>Bye bye!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BYE</pattern>
+        <template>
+            <srai>GOODBYE</srai>
+        </template>
+    </category>
+
+</aiml>

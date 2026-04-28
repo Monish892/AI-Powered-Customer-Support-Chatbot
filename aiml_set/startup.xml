@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- This is the entry-point for the AIML kernel. -->
+    <!-- It loads all other AIML files. -->
+    
+    <category>
+        <pattern>LOAD AIML B</pattern>
+        <template>
+            <learn>aiml_set/greetings.aiml</learn>
+            <learn>aiml_set/basic_chat.aiml</learn>
+            <!-- Add other <learn> tags for new AIML files here -->
+        </template>
+    </category>
+    
+</aiml>
