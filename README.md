@@ -1,7 +1,7 @@
 
 # Nexus AI - Powered Customer Support Chatbot
 
-![Project Banner](https://i.imgur.com/E8S59qY.png)
+![Project Banner](banner.png)
 
 A senior-level web application demonstrating a Python and Flask-based chatbot. It leverages AIML for the conversational AI engine, stores conversation history in a MySQL database, and features a sleek, modern chat interface built with HTML, CSS, and vanilla JavaScript.
 
